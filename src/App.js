@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import Header from "./Header";
 
+
+
 function App() {
   return (
     <div className="app">
-      <h1> Lets build a linkedin clone</h1>
-      {/*Header*/}
+      
+      {/*we are using the header that we imported by writing Header below*/}
       <Header />
       {/*App Body*/}
         {/*Sidebar*/}
